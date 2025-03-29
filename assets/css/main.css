@@ -53,6 +53,14 @@ CSS INDEX
 ******************************************************* 
 *************************************************************** */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Sansita+Swashed:wght@400;500;600;700;800&display=swap");
+html {
+  scroll-behavior: smooth;
+  word-break: keep-all;
+  /* 단어가 끊기지 않도록 설정 */
+  white-space: normal;
+  /* 기본 줄바꿈 유지 */
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;

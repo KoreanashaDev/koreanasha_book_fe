@@ -55,3 +55,48 @@
     background: #ff4d4d;
     color: white;
 }
+
+
+
+.slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+  
+  .slider-track {
+    display: flex;
+    gap: 40px;
+    will-change: transform;
+  }
+  
+  .slide {
+    flex-shrink: 0;
+    height: 100px;
+    flex-basis: auto;
+  }
+  
+  .slide-review {
+    flex-shrink: 0;
+    width: 500px;
+  }
+  
+  .slide img {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  
+  .track-2 {
+    transform: translateX(0);
+    /* 초기 위치 설정 */
+  }
+  
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* 원하는 그림자 스타일 */
+  }
