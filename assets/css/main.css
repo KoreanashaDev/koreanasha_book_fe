@@ -18854,11 +18854,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   line-height: 1.15;
   text-align: end;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .h7_scholarship-title h1 {
-    font-size: 110px;
-  }
-}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
   .h7_scholarship-title h1 {
     font-size: 85px;
