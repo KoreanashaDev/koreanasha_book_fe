@@ -2661,7 +2661,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   display: flex;
   align-items: center;
   gap: 90px;
-  height: 80px;
+  height: 70px;
 }
 .h7_header-right {
   display: flex;
