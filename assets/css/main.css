@@ -4650,7 +4650,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 }
 
 .h7_single-banner {
-  min-height: 480px;
+  min-height: 500px;
   display: flex;
   align-items: center;
   position: relative;
